@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.txt{
+    width: 70%;
+    height: 30vh;
+    margin-bottom: 60px;
+    background-image: linear-gradient(to right bottom, black, magenta);
+}
+.txt1{
+    width: 100% ;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+.txt1 h4{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: black;
+}
+.txt2{
+    width: 100%;
+    height: 15vh;
+    /* background-color: yellow; */
+}
+.txt2 input{
+    width: 90%;
+    height: 5vh;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+.txt2 button{
+    padding: 20px 100px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 17px;
+    font-family: sans-serif;
+    white-space: nowrap;
+}
+.answer{
+    width: 70%;
+    padding: 10px 0;
+    background-image: linear-gradient(to right bottom, black, magenta);
+}
+#ram{
+    width: 100%;
+    padding:10px 0;
+    /* margin-bottom: 20px; */
+    display: block;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+#btn1{
+    white-space: nowrap;
+    padding: 20px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 17px;
+    font-family: sans-serif;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+#btn2{
+    white-space: nowrap;
+    padding: 20px 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 17px;
+    font-family: sans-serif;
+    white-space: nowrap;
+    margin-right: 100px;
+}
